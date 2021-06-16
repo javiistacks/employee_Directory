@@ -1,0 +1,79 @@
+h1 {
+  background-clip: text;
+  color: black;
+  font-family: verdana;
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  right: 50%;
+  text-transform: uppercase;
+  text-shadow: 
+    1px 1px 1px darkorange, 
+    1px 3px 1px red, 
+    1px 4px 1px yellow, 
+    1px 5px 1px green, 
+    1px 6px 1px lime, 
+    1px 7px 1px blue, 
+    1px 8px 1px gray, 
+    1px 9px 1px indigo, 
+    1px 10px 1px black,
+    1px 18px 6px rgba(16, 16, 16, 0.4), 
+    1px 22px 10px rgba(16, 16, 16, 0.2), 
+    1px 25px 35px rgba(16, 16, 16, 0.2), 
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+  top: 50%;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.1rem #333;
+}
+
+hr {
+  background: black;
+  border: 0;
+  height: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  align-content: center;
+  align-items: center;
+  background-color: beige;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#hp {
+  background: beige;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 801px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  #hp {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #hp {
+    font-size: .75rem;
+  }
+}
