@@ -2,7 +2,7 @@ import React from "react";
 import API from "../../util/API.js"
 import Search from "../Search/Search";
 import "./Table.css";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 //npm package to reformat DOB
 import DateFormat from "dateformat";
 
@@ -90,7 +90,7 @@ class Table extends React.Component {
         <Search handleInputChange={this.handleInputChange} search={this.state.search} />
 
         <div className="table-responsive">
-          <table className="table table-striped table-responsive table-hover">
+          <table className="table table-striped table-responsive table-hover table border">
             <thead className="table-head">
               <tr>
                 <th>Image</th>
