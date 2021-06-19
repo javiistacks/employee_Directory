@@ -1,5 +1,5 @@
 # Unit 19 React Homework: Employee Directory
-[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
+[![Generic badge](https://img.shields.io/badge/license-GPL%20v3-40e637)](#license)
 ![GitHub language count](https://img.shields.io/github/languages/count/javiistacks/employee_Directory)
 ![GitHub top language](https://img.shields.io/github/languages/top/javiistacks/employee_Directory)
 
