@@ -1,70 +1,130 @@
-# Getting Started with Create React App...
- updated yarn lock
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Unit 18 PWA Homework: Online/Offline Budget Trackers
+[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
+![GitHub language count](https://img.shields.io/github/languages/count/javiistacks/budgettracker)
+![GitHub top language](https://img.shields.io/github/languages/top/javiistacks/budgettracker)
 
-## Available Scripts
+# budgetTracker
 
-In the project directory, you can run:
-test...
-### `npm start`
+## Table of Contents
+* [Introduction](#introduction)
+* [Demo](#demo)
+* [Youtube](#youtube)
+* [Samples](#samples)
+* [Installations](#installations)
+* [Usage](#usage)
+* [Created by](#created-by)
+* [Repository](#repository)
+* [Deployment](#deployment)
+* [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Introduction
+Budget Tracker is a progressive web application that allows the user to track their finances, with or without internet connection.
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screencast Demo](./assets/img/budget.gif)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### PWA (Pogressive Web Application) and OFFLINE 
+<img src="./assets/img/offline.gif" width="300" height="600"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Youtube
+Watch a demo of the application on [Youtube. BudgetTracker Video.](https://www.youtube.com/watch?v=m0SFZFwqdwg)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Samples
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| ***Screenshot***                   | ***Screenshot***                      |
+| :--------------------------------: | :-----------------------------------: |
+| <img src="./assets/img/1.png">     | <img src="./assets/img/2.png">        |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| ***Screenshot***                   | ***Screenshot***                      |
+| :--------------------------------: | :-----------------------------------: |
+| <img src="./assets/img/3.png">     | <img src="./assets/img/4.png">       |
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installations
+Type the following npm install commands: 
+```
+1. npm i
+```
+on the command line while in the budgetTracker folder. This will download all dependencies. 
+ 
+ <details><summary> CLICK HERE TO SEE ALL NPM PACKAGES</summary>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<blockquote>
+ 
+* [mongoose](https://www.npmjs.com/package/mongoose)
+  * Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
 
-### Code Splitting
+* [express](https://www.npmjs.com/package/express)
+  * Allows to dynamically render HTML Pages based on passing arguments to templates.
+  
+* [morgan](https://www.npmjs.com/package/morgan)
+  * HTTP request logger middleware for node.js.
+  
+* [lite-server](https://www.npmjs.com/package/lite-server)
+  * Lightweight development only node server that serves a web app, opens it in the browser, refreshes when html or javascript change, injects CSS changes using sockets, and has a fallback page when a route is not found.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* [compression](https://www.npmjs.com/package/compression)
+  * Node.js compression middleware.
 
-### Analyzing the Bundle Size
+</blockquote>
+</details>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+`👨🏽‍💻Open in Integrated Terminal`
 
-### Advanced Configuration
+To Run application locally while in the budgetTracker folder type 
+```
+nodemon server.js 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Created by
+* [Javiann Marrero](https://github.com/javiistacks)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Repository
+### Github Repository
+Repository at [budgetTracker](https://github.com/javiistacks/budgettracker)
 
-### `npm run build` fails to minify
+## Deployment
+Deployment was made possible with Heroku. 
+Check out my budget Tracker at the link below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [myledger2021](https://myledger2021.herokuapp.com)
+
+## License
+
+Copyright (c) Javiann Marrero. All rights reserved.<br>
+Please be kind and change content if you wish to use this code.
+
+<details><summary>Licensed under the MIT License</summary>
+
+Copyright (c) 2021 - present | Javiann Marrero
+
+<blockquote>
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</blockquote>
+</details>
