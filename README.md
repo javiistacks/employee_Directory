@@ -18,7 +18,7 @@
 
 
 ## Introduction
-A full stack Employee Directory application created using react. The Employee Directory allows the user to seach employees by first or last name and sort them by their location, first and last name. 
+A full stack Employee Directory application created using react. The Employee Directory allows the user to seach employees by first or last name and sort them by their location, first and last name. This Project was bootstrapped with Create React App.
 
 ## Demo
 
