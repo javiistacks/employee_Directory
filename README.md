@@ -1,7 +1,7 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Unit 19 React Homework: Employee Directory
 [![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
-![GitHub language count](https://img.shields.io/github/languages/count/javiistacks/budgettracker)
-![GitHub top language](https://img.shields.io/github/languages/top/javiistacks/budgettracker)
+![GitHub language count](https://img.shields.io/github/languages/count/javiistacks/employee_Directory)
+![GitHub top language](https://img.shields.io/github/languages/top/javiistacks/employee_Directory)
 
 # budgetTracker
 
@@ -27,12 +27,7 @@ Budget Tracker is a progressive web application that allows the user to track th
 
 
 ### PWA (Pogressive Web Application) and OFFLINE 
-<img src="./assets/img/offline.gif" width="300" height="600"/>
-
-
-## Youtube
-Watch a demo of the application on [Youtube. BudgetTracker Video.](https://www.youtube.com/watch?v=m0SFZFwqdwg)
-
+<img src="./assets/img/of.gif" width="300" height="600"/>
 
 
 ## Samples
@@ -49,28 +44,52 @@ Watch a demo of the application on [Youtube. BudgetTracker Video.](https://www.y
 ## Installations
 Type the following npm install commands: 
 ```
-1. npm i
+1. yarn install
 ```
-on the command line while in the budgetTracker folder. This will download all dependencies. 
+on the command line while in the Employee-Directory folder. This will download all dependencies. 
  
  <details><summary> CLICK HERE TO SEE ALL NPM PACKAGES</summary>
 
 <blockquote>
  
-* [mongoose](https://www.npmjs.com/package/mongoose)
-  * Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
+* [@testing-library/jest-dom](https://www.npmjs.com/package/@testing-library/jest-dom)
+  * The @testing-library/jest-dom library provides a set of custom jest matchers that you can use to extend jest.
 
-* [express](https://www.npmjs.com/package/express)
-  * Allows to dynamically render HTML Pages based on passing arguments to templates.
+* [@testing-library/react](https://www.npmjs.com/package/@testing-library/react)
+  * The React Testing Library is a very light-weight solution for testing React components..
   
-* [morgan](https://www.npmjs.com/package/morgan)
-  * HTTP request logger middleware for node.js.
+* [@testing-library/user-event](https://www.npmjs.com/package/@testing-library/user-event)
+  * user-event is a companion library for Testing Library that provides more advanced simulation of browser interactions than the built-in fireEvent method.
   
-* [lite-server](https://www.npmjs.com/package/lite-server)
-  * Lightweight development only node server that serves a web app, opens it in the browser, refreshes when html or javascript change, injects CSS changes using sockets, and has a fallback page when a route is not found.
+* [axios](https://www.npmjs.com/package/axios)
+  * Axios is a promise based HTTP client for the browser and Node. js.
 
-* [compression](https://www.npmjs.com/package/compression)
-  * Node.js compression middleware.
+* [bootstrap](https://www.npmjs.com/package/bootstrap)
+  * Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+
+* [dateformat](https://www.npmjs.com/package/dateformat)
+  * A node.js package for Steven Levithan's excellent dateFormat() function.
+
+* [gh-pages](https://www.npmjs.com/package/gh-pages)
+  * Publish files to a gh-pages branch on GitHub (or any other branch anywhere else).
+
+* [react](https://www.npmjs.com/package/react)
+  * The react package contains only the functionality necessary to define React components.
+
+* [react-bootstrap](https://www.npmjs.com/package/react-bootstrap)
+  * React-Bootstrap replaces the Bootstrap JavaScript. Each component has been built from scratch as a true React component, without unneeded dependencies like jQuery.
+
+* [react-bootstrap-table-pro](https://www.npmjs.com/package/react-bootstrap-table-pro)
+  * This is a React component for working with data tables! It allows to search, paginate and customize the loading of dynamic data in a table.
+
+* [react-dom](https://www.npmjs.com/package/react-dom)
+  * This package serves as the entry point to the DOM and server renderers for React.
+
+* [react-scripts](https://www.npmjs.com/package/react-scripts)
+  * This package includes scripts and configuration used by Create React App.
+
+* [web-vitals](https://www.npmjs.com/package/web-vitals)
+  * The web-vitals library is a tiny (~1K), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools (e.g. Chrome User Experience Report, Page Speed Insights, Search Console's Speed Report).
 
 </blockquote>
 </details>
@@ -80,9 +99,9 @@ on the command line while in the budgetTracker folder. This will download all de
 
 `👨🏽‍💻Open in Integrated Terminal`
 
-To Run application locally while in the budgetTracker folder type 
+To Run application locally while in the Employee-Directory folder type 
 ```
-nodemon server.js 
+yarn start 
 ```
 
 ## Created by
@@ -91,20 +110,20 @@ nodemon server.js
 
 ## Repository
 ### Github Repository
-Repository at [budgetTracker](https://github.com/javiistacks/budgettracker)
+Repository at [Employee_Directory](https://github.com/javiistacks/employee_Directory)
 
 ## Deployment
-Deployment was made possible with Heroku. 
-Check out my budget Tracker at the link below.
+Deployment was made possible with GH Pages. 
+Check out my Employee Directory at the link below.
 
-* [myledger2021](https://myledger2021.herokuapp.com)
+* [Employee Directory](https://javiistacks.github.io/employee_Directory/)
 
 ## License
 
 Copyright (c) Javiann Marrero. All rights reserved.<br>
 Please be kind and change content if you wish to use this code.
 
-<details><summary>Licensed under the MIT License</summary>
+<details><summary>Licensed under the GNU General Public License v3.0</summary>
 
 Copyright (c) 2021 - present | Javiann Marrero
 
