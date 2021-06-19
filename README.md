@@ -3,12 +3,11 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/javiistacks/employee_Directory)
 ![GitHub top language](https://img.shields.io/github/languages/top/javiistacks/employee_Directory)
 
-# budgetTracker
+# Employee Directory
 
 ## Table of Contents
 * [Introduction](#introduction)
 * [Demo](#demo)
-* [Youtube](#youtube)
 * [Samples](#samples)
 * [Installations](#installations)
 * [Usage](#usage)
@@ -19,26 +18,20 @@
 
 
 ## Introduction
-Budget Tracker is a progressive web application that allows the user to track their finances, with or without internet connection.
+A full stack Employee Directory application created using react. The Employee Directory allows the user to seach employees by first or last name and sort them by their location, first and last name. 
 
 ## Demo
 
-![Screencast Demo](./assets/img/budget.gif)
+![Screencast Demo](./docs/directory.gif)
 
-
-### PWA (Pogressive Web Application) and OFFLINE 
-<img src="./assets/img/of.gif" width="300" height="600"/>
 
 
 ## Samples
 
-| ***Screenshot***                   | ***Screenshot***                      |
-| :--------------------------------: | :-----------------------------------: |
-| <img src="./assets/img/1.png">     | <img src="./assets/img/2.png">        |
+| ***Screenshot***                   |     
+| :--------------------------------: | 
+| <img src="./docs/picture.png">     |
 
-| ***Screenshot***                   | ***Screenshot***                      |
-| :--------------------------------: | :-----------------------------------: |
-| <img src="./assets/img/3.png">     | <img src="./assets/img/4.png">       |
 
 
 ## Installations
